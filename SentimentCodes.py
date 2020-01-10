@@ -1,6 +1,4 @@
-#Naive Bayes Classifier
-#Christian Caicedo | April 2014 
-#@caicedoc1741
+# Importing the different Libraries used in the Project
 
 import sys
 import csv

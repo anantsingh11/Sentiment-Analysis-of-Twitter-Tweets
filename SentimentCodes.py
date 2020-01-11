@@ -13,6 +13,16 @@ from tweepy import Stream
 from nltk.corpus import stopwords
 import nltk.classify.util
 
+
+def DownloadData(self):
+    # authenticating
+    consumerKey = 'your key here'
+    consumerSecret = 'your key here'
+    accessToken = 'your key here'
+    accessTokenSecret = 'your key here'
+    auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
+    auth.set_access_token(accessToken, accessTokenSecret)
+    api = tweepy.API(auth)
 #initialize stopWords
 stopWords = []
  
